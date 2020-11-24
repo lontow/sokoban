@@ -1,0 +1,52 @@
+*{
+			margin:0px;
+			padding:0px;
+}
+body{
+			overflow:hidden;
+}
+.game{
+			width:560px;
+			margin:50px auto;
+}
+
+#up{
+    display: block;
+    font-size: 110px;
+    margin-left:100px;
+    margin-top: 0px;
+    width: 100px;
+    height:100px;
+}
+#down{
+    display: block;
+    font-size: 110px;
+    margin-left:100px;
+    width: 100px;
+    height:80px;
+}
+#left {
+    font-size: 100px;
+    float:left;
+    
+}
+
+#right {
+    font-size: 100px;
+    float:right;
+}
+
+.lr-div{
+	width:100%;
+	height:100px;
+}
+#control-div{
+margin: 10px auto;
+ width:300px;
+ height:300px;
+}
+#game{
+margin: 10px auto;
+width:320px;
+ height:360px;
+}

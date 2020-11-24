@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>推箱子</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<link rel="stylesheet"  type="text/css" href="css/iconfont.css">
+<link rel="stylesheet"  type="text/css" href="css/game.css">
+</head>
+
+<body  onkeydown="doKeyDown(event)">
+<div id="game">
+<canvas id="canvas" width="320" height="320"></canvas>
+			<div id="msg"></div>
+			<input type="button" value="上一关" onclick="NextLevel(-1)">
+			<input type="button" value="下一关" onclick="NextLevel(1)">
+			<input type="button" value="重玩本关" onclick="NextLevel(0)">
+			<input type="button" value="游戏说明" onclick="showHelp()">
+</div>
+<div id="control-div">
+<span id="up" class="iconfont icon-fangxiangjianshang"></span>
+<div class="lr-div">
+<span id="left" class="iconfont icon-fangxiangjian-zuo"></span>
+<span id="right" class="iconfont icon-fangxiangjian-you"></span>
+</div>
+<span id="down" class="iconfont icon-fangxiangjianxia "> </span>
+</div>
+</body>
+<script type="text/javascript" src="js/game.js"></script>
+</html>
